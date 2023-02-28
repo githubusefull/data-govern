@@ -1,0 +1,70 @@
+.slide {
+    background-color: #EDF1D6;
+  margin-top: 50px;
+}
+.slide-title {
+    background-color: #EDF1D6;
+
+}
+.btn-more {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    width: 200px;
+    height: 26px;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    transition: all .5s ease;
+   
+}
+
+.btn-more:hover {
+    color: black;
+    background-color: #EDF1D6;
+}
+.img-slide {
+    width: 300px;
+    height: 200px;
+}
+
+.dot-slide {
+    height: 55px;
+    width: 55px;
+    background-color: #111111;
+    border-radius: 50%;
+    margin: 2px;
+    margin-right: 250px;
+  }
+ 
+  
+  
+  
+  .overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 230px;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .containerrr:hover .overlay {
+    opacity: 1;
+ margin-left: 53px;
+height: 80px;
+  }
+  @media(max-width: 450px) {
+    .containerrr:hover .overlay{
+        margin-left: 77px;
+    }
+}

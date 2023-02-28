@@ -1,0 +1,17 @@
+.carousel {
+    width: 510px;
+}
+
+.myslider {
+    background-color: #bb3737;
+    height: 400px;
+    width: 500px;
+    border-radius: 15px;
+}
+ .text {
+    color: #000;
+}
+.visually-hidden {
+    color: #000;
+    
+}

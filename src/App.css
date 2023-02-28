@@ -1,38 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@1,400;1,500&family=Macondo&family=Oswald:wght@500&family=Playfair+Display:ital@1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada:wght@300&family=Urbanist:wght@500&display=swap');
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+ 
+
+.navbar {
+  justify-content: space-between
+}
+div a {
+  text-decoration-line: none;
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: whitesmoke;
+  box-sizing: border-box;
+
 }
 
-.App-link {
-  color: #61dafb;
+
+#Button-pagination {
+  width: 100px;
+  height: 37px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 22px;
+  float: left;
+}
+.icon-logo{
+  width: 43px;
+  height: 35px;
+  margin-left: 42px;
+}
+  #list_item, h4, p, h5 {
+  color:black!important;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem; 
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+ #list_item:hover{
+  color:#1b1c1d !important;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1rem; 
+  text-decoration-line:overline;
+
 }
+.search {
+  font-size: 1.8rem;
+  margin-top: 5px;
+  margin-right: 6px;
+}
+.search:hover{
+  color:#1b1c1d !important;
+
+}
+
+
+img {
+  width: 212px;
+  margin: 12px;
+  height: 140px;
+  border-radius: 5px;
+}
+.signup {
+  width: 270px;
+  margin-top: 110px;
+  margin-left: 50px;
+}
+
+.button {
+  background-color: #93BFCF;
+  font-family: Arial, Helvetica, sans-serif;
+  color:black!important;
+  font-weight: 950;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.button3 {
+  background-color: #93BFCF;
+  font-family: Arial, Helvetica, sans-serif;
+  color:black!important;
+  font-weight: 950;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+} 
+
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button3:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button2 {
+  margin-top: 23px;
+}
+.button1 {
+  margin-top: 23px;
+}
+.button1:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.carousel {
+  margin-top: 123px;
+}
+.icon-google {
+  font-size: 20px;
+  margin-right: 12px;
+}
+.icon-mail {
+  font-size: 25px;
+  margin-right: 12px;
+}
+.Community-img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background-color: black;
+}
+
+.Community {
+  margin-top: 100px;
+}
+
+div.InfomationPerson {
+  float: left;
+  text-align: center;
+  margin-left: 1px;
+  margin-top: 33px;
+  background-color: white;
+  border-radius: 5px;
+  color: #000;
+
+}
+ .pagin {
+  text-align: center;
+  display: inline;
+  margin: 23px;
+  margin-left: 110px;
+
+ }
+ .img-pagin {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+ 
+  
+ }
+  
+.face {
+  width: 420px;
+  margin: 50px;
+  margin-bottom: 12px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: -2s;
+
+} 
+.face2 {
+  width: 500px;
+  margin: 50px;
+  margin-bottom: 12px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: -2s;
+}
+
+.myform {
+max-width:"500px";
+margin:"auto";
+}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  font-size: 22px;
+  background:#93BFCF;
+  color: black;
+  min-width: 50px;
+  text-align: center;
+  border-radius: 5px;
+  margin-right: 4px;
+
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border-radius: 5px;
+}
+
+.input-field:focus {
+  border: 2px solid #93BFCF;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #93BFCF;
+  color: black;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+.icon-face {
+  font-size: 100px;
+  margin: 10px;
+  margin-bottom: 100px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: -2s;
+}
+
+.icon-sign {
+  font-size: 100px;
+  margin: 10px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: -2s;
+}
+.icon-footer {
+  color: #000;
+  font-size: 1.3rem;
+}
+.icon-home {
+  color: #000;
+  font-size: 1.5rem;
+}
+
+.text {
+  margin-top: 60px;
+}
+
+.png {
+  position: relative;
+  display: flex;
+}
+
+.png .img-png {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  margin: 0 5px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 50%;
+  animation: animate 15s linear infinite;
+}
+.png .img-png2 {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  margin: 0 5px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 50%;
+  animation: animate 15s linear infinite;
+}
+.card-img-top {
+  border-radius: 100%;
+}
+.card-info,  .name{
+  font-weight: bold;
+  text-align: left;
+  margin-left: 1px;
+  margin: 5px;
+  font-size: 14px;
+}
+.card-info,  .phone{
+  font-weight: bold;
+  text-align: left;
+  margin-top: 3px;
+  margin: 5px;
+  font-size: 14px;
+}
+  .card-info,  .email {
+  font-size: 12px;
+  width: 200px;
+  text-align: left;
+  font-weight: 100;
+  display: inline-block;
+  margin: 5px;
+}
+.card-info   {
+width: 110px;
+height: 100px;
+margin-bottom: 12px;
+}
+
+.card-form {
+  border-radius: 100%;
+  width: 23px;
+}
+.card-all {
+  width: 150px;
+  border-radius: 5px;
+}
+
+.contact {
+  margin-right: 100px;
+}
+@keyframes example {
+  0%   {background-color:black; left:0px; top:0px;}
+  25%  {background-color:white; left:200px; top:0px;}
+  50%  {background-color:white; left:200px; right:200px;}
+  75%  {background-color:white; left:0px; right:200px;}
+  100% {background-color:white; left:0px; top:0px;}
+}
+
+@keyframes animate {
+  0%
+  {
+    transform: translateY(100vh) scale(0);
+  }
+};
+
+ 
