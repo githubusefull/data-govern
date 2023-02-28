@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/data-govern/static/css/main.de0c3c51.css",
+    "main.js": "/data-govern/static/js/main.fc0dc008.js",
+    "static/js/787.895e4c3a.chunk.js": "/data-govern/static/js/787.895e4c3a.chunk.js",
+    "static/media/pic6.jpg": "/data-govern/static/media/pic6.aa5ddd39bcccddbe3927.jpg",
+    "static/media/pic2.png": "/data-govern/static/media/pic2.0725efecd397eb427ed5.png",
+    "static/media/simo.png": "/data-govern/static/media/simo.c02ecec52956a3fb2db4.png",
+    "static/media/pic3.jpg": "/data-govern/static/media/pic3.899d07adc419f8a4f304.jpg",
+    "static/media/programming1.png": "/data-govern/static/media/programming1.53e742ca804c89f85e87.png",
+    "static/media/pic4.jpg": "/data-govern/static/media/pic4.68e933b9a87bf8de392c.jpg",
+    "static/media/programming2.png": "/data-govern/static/media/programming2.17b26dbfedfccf98e2c9.png",
+    "static/media/trt.jpg": "/data-govern/static/media/trt.722c83de4121d9fcfede.jpg",
+    "static/media/blob.jpg": "/data-govern/static/media/blob.a1d2f3730ad3b807a1cd.jpg",
+    "static/media/revicons.eot": "/data-govern/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/data-govern/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/code2.png": "/data-govern/static/media/code2.bb3fd95788588ef5bd2e.png",
+    "static/media/revicons.woff": "/data-govern/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/data-govern/index.html",
+    "main.de0c3c51.css.map": "/data-govern/static/css/main.de0c3c51.css.map",
+    "main.fc0dc008.js.map": "/data-govern/static/js/main.fc0dc008.js.map",
+    "787.895e4c3a.chunk.js.map": "/data-govern/static/js/787.895e4c3a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de0c3c51.css",
+    "static/js/main.fc0dc008.js"
+  ]
+}
