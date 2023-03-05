@@ -88,7 +88,7 @@ function Slider2() {
 </div>
 <div class="containerrr">
   <img src={progr2} alt="Avatar" class="img-slide"  />
-  <div class="overlay">Coding.
+  <div class="overlay">React.js
     <a type='button' href='d' className='btn-more'><TfiMoreAlt/></a>
 
   </div>
@@ -96,7 +96,7 @@ function Slider2() {
 </div>
 <div class="containerrr">
   <img src={progr1} alt="Avatar" class="img-slide"  />
-  <div class="overlay">Coding.
+  <div class="overlay">Python
     <a type='button' href='d' className='btn-more'><TfiMoreAlt/></a>
 
   </div>

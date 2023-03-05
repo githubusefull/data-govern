@@ -2,7 +2,7 @@ import React from 'react'
 import  './About.css';
 import { Col,  Row,  Card, Form } from "react-bootstrap";
 import code from './code2.png';
-
+import gif from './giphy.gif';
 function About() {
   return (
     <div className='container  my-5'>
@@ -25,7 +25,7 @@ function About() {
         </h3>
   </p>
 
-        <img src='https://www.w3schools.com/codeeditor.gif' alt='' className='img-editor'  />
+        <img src={gif} alt='' className='img-editor'  />
 
      
 

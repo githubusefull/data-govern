@@ -161,7 +161,8 @@
 }
 
 .img-editor {
-    width: 410px;
+    width: 200px;
     height: 250px;
+    border-radius: 25px;
     margin-bottom: 300px;
 }
